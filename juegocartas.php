@@ -28,27 +28,27 @@ if (isset($_POST["go"])){
 
 ?>
 
-
- <div class="well">Juego de Cartas</div>
+<form action="juegocartas.php" method="post">
+ 	<div class="well">Juego de Cartas <div class="text-right">
+ 	<input type="submit" name="go" value="Go!">  
+	<input type="submit" name="reset" value="Reset"></div>
+	</div>
 
 <br>
 
-<form action="juegocartas.php" method="post">
+
 	<div class="row">
 		<div class="col-md-6"><div class="well">JUGADOR 1: <?php echo $cartas[$c1-1]; ?> <?php echo $palos[$p1-1]; ?></div></div>
 		<div class="col-md-6"><div class="well">JUGADOR 2: <?php echo $cartas[$c2-1]; ?> <?php echo $palos[$p2-1]; ?></div></div>
 	</div>
+	
 	<br><br>
+	
 	<div class="row">		
 		<div class="col-md-6"><img src="<?php echo $resultado1; ?>"></div>
 		<div class="col-md-6"><img src="<?php echo $resultado2; ?>"></div>
-		</div>
-	<br><br>	
-	
-	<br><br>
-		<input type="submit" name="go" value="Go!">  
-		<input type="submit" name="reset" value="Reset">
-			
+	</div>
+				
 </form>		
 	
 
