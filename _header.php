@@ -41,7 +41,6 @@
         <li><a href="form.php">Formulario</a></li>
         <li><a href="calificaciones.php">Calificaciones</a></li>
         <li><a href="dados.php">Dados</a></li>
-        <li><a href="juegocartas.php">Juego de Cartas</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">PHP<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
